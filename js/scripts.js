@@ -1,7 +1,17 @@
 'use strict';
 
 $(document).ready(function() {
-  
+  // Add hover effects for navigation
+  $('.nav-item').hover(function() {
+    $('li.nav-item.active-link').addClass('original');
+    $('li').removeClass('active-link');
+    $(this).addClass('active-link');
+  }, function() {
+    $('li').removeClass('active-link');
+    $('li.nav-item.original').addClass('active-link');
+    $('li.nav-item.active-link').removeClass('original');
+  });
+ 
   // Show information on hover
   $('.board-members').hover(function() {
     $(this).children('.board-members-info').addClass('showing');
