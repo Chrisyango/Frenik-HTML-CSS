@@ -46,7 +46,7 @@ nav {
   margin-top: 55px;
 }
 
-nav ul {
+nav ul:first-child {
   display: flex; 
   justify-content: space-between; 
   align-items: space-between; 
@@ -221,7 +221,7 @@ nav a {
   border: none;
   border-radius: 5px;
   padding: 20px 60px;
-  background-color: #a9253c;
+  background-image: linear-gradient(#f11640, #a9253c);
   color: #fff;
   font-size: 1.5em;
   font-weight: 600;
@@ -368,5 +368,83 @@ nav a {
   left: 50%;
   margin-left: -45px;
   text-decoration: underline;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+/* SIGN UP -------------------------------------------------------*/
+.sign-up {
+  width: 100%;
+  background-color: #d6e1f3;
+  margin-top: 20px;
+  padding: 30px 0;
+}
+
+.sign-up .container {
+  text-align: center;
+}
+
+.sign-up .container h2 {
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+.sign-up .container p {
+  font-size: 1.2em;
+}
+
+.sign-up-form {
+  width: 100%;
+  display:  flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.sign-up-form input {
+  width: 300px;
+  padding: 30px;
+}
+
+.sign-up-form .btn {
+  width: 230px;
+  color: #fff;
+  background-image: linear-gradient(#f11640, #a9253c);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* FOOTER -------------------------------------------------------*/
+footer {
+  width: 100%;
+  background-color: #a9253c;
+  padding: 30px 0 10px 0;
+  color: #fff;
+  font-size: 11px;
+}
+
+footer nav {
+  width: 100%;
+  margin: 0;
+}
+
+footer nav a {
+  color: #fff;
+}
+
+footer nav ul:first-child {
+  width: 800px;
+}
+
+footer nav ul:first-child li {
+  margin-left: -7px;
+}
+
+.footer-social {
+  position: absolute;
+  right: 0;
+}
+
+footer p {
+  margin-top: 20px;
 }
