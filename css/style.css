@@ -149,7 +149,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .partners-title h2 {
@@ -169,12 +169,12 @@ nav a {
 .partner-images {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .partners p {
   text-align: center;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .partners ul {
@@ -199,7 +199,7 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .partners-closing h3 {
@@ -218,13 +218,13 @@ nav a {
   display: block;
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .donation-btn button {
   border: none;
   border-radius: 5px;
-  padding: 30px 60px;
+  padding: 20px 60px;
   background-color: #a9253c;
   color: #fff;
   font-size: 1.5em;
@@ -258,7 +258,7 @@ nav a {
 /* APP DOWNLOAD -------------------------------------------------------*/
 .app-download {
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #a9253c;
   color: #fff;
 }
@@ -271,4 +271,41 @@ nav a {
 
 .app-download .container h2 {
   width: 500px;
+}
+
+/* CAROUSEL -------------------------------------------------------*/
+
+
+/* OUR MISSION -------------------------------------------------------*/
+.our-mission-our-goal {
+  background-image: url('../images/our-misssion-our-goal.jpg');
+  width: 100%;
+  height: 695px;
+}
+
+.our-mission {
+  width: 950px;
+}
+
+.our-mission h2 {
+  padding: 20px 0;
+  font-size: 2.5em;
+}
+
+.our-goals h2 {
+  padding: 20px 0;
+  font-size: 2.5em;
+}
+
+.our-goals ul li {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 15px 0;
+}
+
+.our-goals h3 {
+  color: #fff;
+  font-size: 3em;
+  margin-right: 20px;
 }
