@@ -1,0 +1,125 @@
+/* BASE STYLES -------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #fff;
+  color: #333;
+  letter-spacing: 1.2px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* NAVIGATION -------------------------------------------------------*/
+.logo {
+  position: relative;
+  top: 30px;
+}
+
+.donate {
+  float: right;
+}
+
+nav {
+  clear: right;
+  margin-top: 55px;
+}
+
+nav ul {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: space-between; 
+  width: 100%;
+}
+
+nav a {
+  font-size: 11px;
+}
+
+.active {
+  border-bottom: 3px solid #a52242;
+  padding-bottom: -30px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 3px;
+  color: #fff;
+}
+
+.social-twitter {
+  background: #1bb7ea;
+}
+
+.social-instagram {
+  background: #985ba9;
+}
+
+.social-facebook {
+  background: #4d71ab;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.search-input {
+  border-radius: 5px 0 0 5px;
+  font-size: 11px;
+  height: 30px;
+}
+
+.search-button {
+  background-color: #f5f5f5;
+  border: 1px solid #e1e1e1;
+  margin-left: -9px;
+  border-radius: 0 5px 5px 0;
+}
+
+.btn {
+  padding: 2px 7px;
+}
