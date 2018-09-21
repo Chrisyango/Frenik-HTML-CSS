@@ -12,7 +12,7 @@ body {
   background-color: #fff;
   color: #333;
   letter-spacing: 1.2px;
-  line-height: 1.6;
+  line-height: 1.7;
   font-size: 14px;
 }
 
@@ -120,7 +120,7 @@ nav a {
   top: 300px;
 }
 
-.banner-content h1 {
+.banner-content h2 {
   font-size: 1.7em;
   width: 500px;
   font-style: italic;
@@ -138,12 +138,12 @@ nav a {
   color: #b31e3b;
 }
 
-.banner-quote h2 {
+.banner-quote h3 {
   font-size: 1.4em;
   padding-left: 20px;
 }
 
-/* CONTENT -------------------------------------------------------*/
+/* PARTNERS -------------------------------------------------------*/
 .partners-title {
   display: flex;
   justify-content: space-between;
@@ -231,4 +231,27 @@ nav a {
   font-size: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+/* WHO WE ARE -------------------------------------------------------*/
+.who-we-are {
+  width: 100%;
+  background-color: #d6e1f3;
+}
+
+.who-we-are .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.who-we-are-content {
+  margin-right: 60px;
+}
+
+.who-we-are-content h2 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
