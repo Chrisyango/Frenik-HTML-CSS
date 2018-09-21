@@ -13,6 +13,7 @@ body {
   color: #333;
   letter-spacing: 1.2px;
   line-height: 1.6;
+  font-size: 14px;
 }
 
 h1,
@@ -20,18 +21,6 @@ h2,
 h3,
 h4 {
   font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-  font-size: 3.5em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.5em;
 }
 
 ul {
@@ -76,8 +65,7 @@ nav a {
 }
 
 .active {
-  border-bottom: 3px solid #a52242;
-  padding-bottom: -30px;
+  box-shadow: inset 0 0px 0 white, inset 0 -5px 0 #a52242;
 }
 
 .social-link {
@@ -122,4 +110,94 @@ nav a {
 
 .btn {
   padding: 2px 7px;
+}
+
+/* CONTENT -------------------------------------------------------*/
+.partners-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.partners-title h2 {
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #b31e3b;
+}
+
+.partners-title hr {
+  display: inline-block;
+  width: 42%;
+  border-bottom: 1px solid black;
+  opacity: 0.2;
+}
+
+.partner-images {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.partners p {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.partners ul {
+  display: flex;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.partners ul li {
+  width: 20%;
+  margin: 0 2.5%;
+}
+
+.partners ul h3 {
+  font-size: 5em;
+  font-weight: 600;
+  color: #b31e3b;
+}
+
+.partners-closing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.partners-closing h3 {
+  font-size: 2em;
+  margin: 30px;
+}
+
+.partners-closing hr {
+  display: inline-block;
+  width: 21%;
+  border-bottom: 1px solid black;
+  opacity: 0.2;
+}
+
+.donation-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.donation-btn button {
+  border: none;
+  border-radius: 5px;
+  padding: 20px 60px;
+  background-color: #b31e3b;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
 }
