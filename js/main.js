@@ -26,6 +26,7 @@ $(document).ready(function() {
     loop:true,
     margin:30,
     nav:true,
+    lazyLoad: false,
     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
       0:{
